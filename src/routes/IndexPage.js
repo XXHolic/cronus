@@ -8,6 +8,7 @@ function IndexPage() {
       <h1 className={styles.title}>Yay! Welcome to dva!</h1>
       <ul className={styles.list}>
         <li><a href="#/products">Products</a></li>
+        <li><a href="#/count">Count</a></li>
 
       </ul>
     </div>
