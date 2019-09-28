@@ -1,7 +1,8 @@
 import React from 'react';
 import { connect } from 'dva';
 
-const Count = ({ dispatch, count }) => {
+const Count = ({ dispatch, count,history }) => {
+  console.info('history',history);
   return (
     <div>
       <h2>{ count }</h2>

@@ -1,6 +1,5 @@
 import React from 'react';
 import { router } from 'dva';
-// import { Router, Route, Switch } from 'dva/router';
 import IndexPage from './routes/IndexPage';
 import Products from './routes/Products';
 import Count from './routes/Count';

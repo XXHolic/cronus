@@ -1,8 +1,13 @@
 import dva from "dva";
+// import dva from "../node_modules/dva/src/index";
 import "./index.css";
+// import { createBrowserHistory } from 'dva';
+// const history = createBrowserHistory();
 
 // 1. Initialize
+// debugger;
 const app = dva({
+  // history: history,
   initialState: { products: [{ name: "dva", id: 1 }, { name: "antd", id: 2 }] }
 });
 
