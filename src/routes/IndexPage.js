@@ -1,6 +1,7 @@
 import React from 'react';
 import { connect } from 'dva';
 import styles from './IndexPage.css';
+// import RichText from '../components/RichText/index';
 
 function IndexPage({history}) {
   console.info(history);
@@ -10,8 +11,8 @@ function IndexPage({history}) {
       <ul className={styles.list}>
         <li><a href="#/products">Products</a></li>
         <li><a href="#/count">Count</a></li>
-
       </ul>
+      {/* <RichText></RichText> */}
     </div>
   );
 }
