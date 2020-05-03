@@ -5,7 +5,7 @@ import "./index.css";
 // const history = createBrowserHistory();
 
 // 1. Initialize
-// debugger;
+debugger;
 const app = dva({
   // history: history,
   initialState: { products: [{ name: "dva", id: 1 }, { name: "antd", id: 2 }] }
